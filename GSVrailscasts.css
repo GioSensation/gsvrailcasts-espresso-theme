@@ -1,0 +1,121 @@
+/*
+	@theme GSVrailscasts
+	@override-placeholders ruby, css, html
+  @author Ported by Xac Stegner from Ryan Bates' Railscasts TextMate theme / Then GSV addded a few things!
+*/
+
+@base {
+	color: #ddd;
+	background-color: #222;
+	insertion-point-color: #fff;
+	selection-background-color: #50586F;
+}
+
+tag, source, sourcecode { spell-check: disabled; }
+
+/* HTML */
+
+tag, string > punctuation, attribute-name, entity { color: #E5C06B; } 
+string { color: rgba(164, 194, 97, 1.00); } 
+comment, comment *, comment.block, comment.line.double-slash, comment>punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted { color: #777271; font-style: italic; }
+processing-instruction { color:#aeaeae; }
+
+/* CSS */
+
+css property-name { color: rgba(112, 155, 190, 1.00); }
+css property-value { color: rgba(164, 194, 97, 1.00); }
+css { spell-check: disabled; }
+css.selector, css.selector > entity > punctuation { color: rgba(251, 199, 111, 1.00); }
+css keyword.important { color: rgba(214, 72, 62, 1.00); }
+css numeric { color: rgba(164, 194, 97, 1.00);}
+css zunit { color: rgba(200, 121, 54, 1.00); }
+css rgb-value, css rgba-value { color: rgba(112, 155, 190, 1.00); }
+css.at-rule string, css.at-rule string punctuation, media.css > block > punctuation, property-list.css > property-value > punctuation { color: #fafafe; }
+keyword.important.css { color: rgb(250, 90, 160); }
+
+/* Ruby */
+
+metadata { color: rgba(255, 0, 0, 1.00); }
+metadata.comment { color: rgba(186, 149, 89, 1.00); }
+
+string.interpolation { color: rgba(83, 158, 79, 1.00); }
+
+keyword.control, constant.language, constant, embedded.language-root.php constant.numeric { color: #e382da; }
+constant.language {
+	font-weight: bold;
+}
+variable.language, variable.other, x-assignment name {
+    color: #318495;
+}
+
+literal { color: rgba(112, 155, 190, 1.00); }
+literal.numeric { color: rgba(164, 194, 97, 1.00); }
+literal.string { color: rgba(164, 194, 97, 1.00); }
+literal.keyword, function { color: rgba(112, 155, 190, 1.00); }
+literal.symbol { color: rgba(112, 155, 190, 1.00); }
+literal.escape { color: rgba(83, 158, 79, 1.00); }
+
+operator, keyword.operator, regex.literal punctuation.definition.begin, regex.literal punctuation.definition.end { color: rgba(200, 121, 54, 1.00); }
+
+container.block { color: rgba(255, 0, 0, 1.00); }
+container.function { color: rgba(251, 199, 111, 1.00); }
+identifier.variable.parameter { color: rgba(255, 255, 255, 1.00); }
+
+identifier { color: rgba(200, 121, 54, 1.00); }
+identifier.variable, regex.literal > punctuation.definition.begin, regex.literal > punctuation.definition.end { color: rgba(209, 208, 255, 1.00); }
+
+identifier.variable, regex.literal > punctuation.definition.begin, regex.literal > punctuation.definition.end { color: rgba(209, 208, 255, 1.00); }
+identifier.variable.instance { color: rgba(209, 208, 255, 1.00); }
+identifier.variable.local { color: rgba(255, 255, 255, 1.00); }
+identifier.variable.constant { color: rgba(214, 72, 62, 1.00); }
+
+keyword, support.variable.built-in { color: green; font-weight: bold; }
+
+delimiter { color: rgba(190,190,190, 1.00); }
+
+/*My things*/
+attribute-value.value, regex.literal constant.character.escape {
+	color: rgb(246, 81, 81);
+}
+string.quoted.single, string.quoted.double, string.quoted {
+	color: rgb(200,200,200);
+}
+
+language-root.js operator {
+	color: rgba(214, 72, 62, 1.00);
+}
+
+embedded.language-root.php variable, embedded.language-root.php variable.predefined .punctuation {
+	color: rgb(0, 193, 213);
+}
+embedded.language-root.php variable .punctuation {
+	color: rgb(250, 129, 66);
+}
+
+embedded.language-root.php variable.function {
+	color: rgba(112, 155, 190, 1.00);
+}
+kit-comment {
+	color: #F0C7B0;
+}
+
+kit-comment keyword.control punctuation {
+	color: #806496;
+}
+
+kit-comment keyword.control name {
+	color: #D3B6D7;
+}
+
+kit-comment delimiter.source.start,
+kit-comment delimiter.source.end {
+	color: rgb(0, 193, 213);
+}
+
+kit-comment variable punctuation {
+	color: #C35146;
+}
+
+kit-comment variable name {
+	color: #F27C50;
+}
