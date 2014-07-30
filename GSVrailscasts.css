@@ -61,10 +61,10 @@ variable.language, variable.other, x-assignment name, variable {
 ruby variable.language, ruby variable.other, ruby x-assignment name, ruby variable {
     color: #f96688;
 }
-variable.symbol {
+ruby variable.symbol {
 	color: #ff2727;
 }
-variable.symbol punctuation {
+ruby variable.symbol punctuation {
 	color: #6cc8df;
 }
 ruby string.quoted.single,
@@ -72,7 +72,7 @@ ruby string.quoted.double {
 	color: pink;
 	background-color: rgba(203, 164, 187, .15);
 }
-ruby function {
+ruby variable.function {
 	color: #96b2ed;
 }
 
@@ -109,9 +109,9 @@ string.quoted.single, string.quoted.double, string.quoted {
 	color: rgb(200,200,200);
 }
 
-/*language-root.js string.quoted {
+language-root.js string.quoted {
 	color: #d6cf59;
-}*/
+}
 
 language-root.js operator {
 	color: rgba(214, 72, 62, 1.00);
