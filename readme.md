@@ -11,3 +11,18 @@ It's far from perfect. If you feel like you could add anything, feel free to for
 
 
 Protip: if you don't really like my attempt, check out this guy's [D is for Dark](http://www.dermotholmes.com/work/d-is-for-dark-espresso-editor-theme/ "D is for Dark: beautiful theme for Espresso"). I love it.
+
+## Screenshots
+
+#### Html with .kit syntax
+![Html with .kit syntax](http://gsv-general.s3.amazonaws.com/imgs/html-kit.jpg "Html with .kit syntax")
+
+#### JavaScript
+![JavaScript](http://gsv-general.s3.amazonaws.com/imgs/javascript.jpg "JavaScript")
+
+#### Ruby
+Yeah, I know it's very pink, very red, very ruby.
+![Ruby syntax](http://gsv-general.s3.amazonaws.com/imgs/ruby.jpg "Ruby syntax")
+
+#### PHP
+![PHP syntax](http://gsv-general.s3.amazonaws.com/imgs/php.jpg "PHP syntax")
