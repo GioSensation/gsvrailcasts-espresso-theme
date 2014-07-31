@@ -10,19 +10,19 @@ It's far from perfect. If you feel like you could add anything, feel free to for
 4. Enjoy my theme, star it here on GitHub and share it online!
 
 
-Protip: if you don't really like my attempt, check out this guy's [D is for Dark](http://www.dermotholmes.com/work/d-is-for-dark-espresso-editor-theme/ "D is for Dark: beautiful theme for Espresso"). I love it.
+Protip: if you don't really like my attempt, check out this guy's [D is for Dark](http://www.dermotholmes.com/work/d-is-for-dark-espresso-editor-theme/ "D is for Dark: beautiful theme for Espresso"). I love it, but mine is better.
 
 ## Screenshots
 
 #### Html with .kit syntax
-![Html with .kit syntax](http://gsv-general.s3.amazonaws.com/imgs/html-kit.jpg "Html with .kit syntax")
+![Html with .kit syntax](http://gsv-general.s3.amazonaws.com/imgs/html-kit.png "Html with .kit syntax")
 
 #### JavaScript
-![JavaScript](http://gsv-general.s3.amazonaws.com/imgs/javascript.jpg "JavaScript")
+![JavaScript](http://gsv-general.s3.amazonaws.com/imgs/javascript.png "JavaScript")
 
 #### Ruby
 Yeah, I know it's very pink, very red, very ruby.
-![Ruby syntax](http://gsv-general.s3.amazonaws.com/imgs/ruby.jpg "Ruby syntax")
+![Ruby syntax](http://gsv-general.s3.amazonaws.com/imgs/ruby.png "Ruby syntax")
 
 #### PHP
-![PHP syntax](http://gsv-general.s3.amazonaws.com/imgs/php.jpg "PHP syntax")
+![PHP syntax](http://gsv-general.s3.amazonaws.com/imgs/php.png "PHP syntax")
