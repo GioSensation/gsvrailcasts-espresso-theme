@@ -12,6 +12,8 @@ It's far from perfect. If you feel like you could add anything, feel free to for
 
 Protip: if you don't really like my attempt, check out this guy's [D is for Dark](http://www.dermotholmes.com/work/d-is-for-dark-espresso-editor-theme/ "D is for Dark: beautiful theme for Espresso"). I love it, but mine is better.
 
+I also recommend you to take a look at my [List of Sugar Plugins for Espresso](https://github.com/GioSensation/curated-list-espresso-sugar-plugins "A curated list of Sugar plugins for Espresso"). You might find something very interesting.
+
 ## Screenshots
 
 #### Html with .kit syntax
